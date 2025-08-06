@@ -1,0 +1,97 @@
+#navbar img{
+/* background-color: ; */
+width: 100;
+height: 60px;
+display: flex;
+justify-content: left;
+
+
+
+
+}
+
+
+#navbar img :hover{
+
+       transform: rotate(45deg);
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+#navbar{
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    border: solid 1px black;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(bg\ main.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+
+}
+
+
+#navbar img{
+
+width: 150px;
+}
+
+
+
+#navbar nav ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  text-decoration: dashed;
+  color: black;
+}
+
+
+
+
+
+#navbar nav ul li a {
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+text-decoration: none;
+/* color: ; */
+
+text-transform: uppercase;
+color: black;
+
+transition: all ease 0.4s;
+}
+
+
+#navbar nav ul li :hover{
+
+  color: black;
+  
+  transform: scale(1.2);
+
+
+
+}
+
+
